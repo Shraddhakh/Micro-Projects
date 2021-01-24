@@ -3,7 +3,7 @@ import speech_recognition as sr
 import pyttsx3
 listener = sr.Recognizer()
 engine = pyttsx3.init()
-engine.say('Hello, I am your Alexa , What can I do for you? Can I get some Dabeli today')
+engine.say('Hello, I am your Alexa , What can I do for you')
 while(1):
         try:
                 with sr.Microphone() as source:
