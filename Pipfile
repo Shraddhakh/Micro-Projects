@@ -28,6 +28,11 @@ google-api-python-client = "*"
 wheel = "*"
 pypiwin32 = "*"
 pywhatkit = "*"
+pypdf2 = "*"
+epub-conversion = "*"
+xml-cleaner = "*"
+ebooklib = "*"
+tika = "*"
 
 [requires]
 python_version = "3.8"
